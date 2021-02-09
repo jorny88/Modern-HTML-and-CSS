@@ -1,0 +1,28 @@
+body {
+    background-color: #333;
+}
+
+h2.green-heading {
+    color: green;
+}
+
+h2.red-heading {
+    color:red;
+}
+
+#welcome {
+    background-color: beige;
+    text-align: justify;
+}
+
+#about {
+    background-color: aliceblue;
+    text-align:justify;
+}
+
+/* Multiple selectors */
+#welcome, #about {
+    border: 1px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
