@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframe Animation</title>
+    <style>
+        body {
+            background: #333;
+        }
+
+        .box {
+            background: white;
+            color: white;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            text-align: center;
+            align-items: center;
+            /* Animation */
+            animation-name: animate1;
+            animation-duration: 2s;
+            /* antall ganger animasjon */
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+        }
+
+        @keyframes animate1 {
+            from {
+                color: white;
+                top:0;
+                width: 200px;
+            }
+            to {
+                color:black;
+                top:300px;
+                width: 600px;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>FULLFLEX</h1>
+    </div>
+</body>
+</html>
